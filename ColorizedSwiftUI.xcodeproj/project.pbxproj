@@ -7,18 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		441B0AFF2972B73C00D373C6 /* EnterColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441B0AFE2972B73C00D373C6 /* EnterColorView.swift */; };
 		4435D29929713DDC0030AAA9 /* ColorizedSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4435D29829713DDC0030AAA9 /* ColorizedSwiftUIApp.swift */; };
 		4435D29B29713DDC0030AAA9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4435D29A29713DDC0030AAA9 /* ContentView.swift */; };
 		4435D29D29713DDD0030AAA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4435D29C29713DDD0030AAA9 /* Assets.xcassets */; };
 		4435D2A029713DDD0030AAA9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4435D29F29713DDD0030AAA9 /* Preview Assets.xcassets */; };
+		4435D2A729713F520030AAA9 /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4435D2A629713F520030AAA9 /* PreviewView.swift */; };
+		4435D2A9297140AA0030AAA9 /* SelectColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4435D2A8297140AA0030AAA9 /* SelectColorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		441B0AFE2972B73C00D373C6 /* EnterColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterColorView.swift; sourceTree = "<group>"; };
 		4435D29529713DDC0030AAA9 /* ColorizedSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorizedSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4435D29829713DDC0030AAA9 /* ColorizedSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorizedSwiftUIApp.swift; sourceTree = "<group>"; };
 		4435D29A29713DDC0030AAA9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4435D29C29713DDD0030AAA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4435D29F29713DDD0030AAA9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4435D2A629713F520030AAA9 /* PreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewView.swift; sourceTree = "<group>"; };
+		4435D2A8297140AA0030AAA9 /* SelectColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectColorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,9 @@
 			children = (
 				4435D29829713DDC0030AAA9 /* ColorizedSwiftUIApp.swift */,
 				4435D29A29713DDC0030AAA9 /* ContentView.swift */,
+				441B0AFE2972B73C00D373C6 /* EnterColorView.swift */,
+				4435D2A8297140AA0030AAA9 /* SelectColorView.swift */,
+				4435D2A629713F520030AAA9 /* PreviewView.swift */,
 				4435D29C29713DDD0030AAA9 /* Assets.xcassets */,
 				4435D29E29713DDD0030AAA9 /* Preview Content */,
 			);
@@ -138,7 +147,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4435D29B29713DDC0030AAA9 /* ContentView.swift in Sources */,
+				441B0AFF2972B73C00D373C6 /* EnterColorView.swift in Sources */,
+				4435D2A9297140AA0030AAA9 /* SelectColorView.swift in Sources */,
 				4435D29929713DDC0030AAA9 /* ColorizedSwiftUIApp.swift in Sources */,
+				4435D2A729713F520030AAA9 /* PreviewView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +294,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.zgainer.ColorizedSwiftUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -311,6 +326,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.zgainer.ColorizedSwiftUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
