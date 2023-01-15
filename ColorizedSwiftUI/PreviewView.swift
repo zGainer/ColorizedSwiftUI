@@ -14,6 +14,7 @@ struct PreviewView: View {
         RoundedRectangle(cornerRadius: 30)
             .frame(height: 200)
             .foregroundColor(color)
+            .overlay( RoundedRectangle(cornerRadius: 30).stroke(Color.white, lineWidth: 4) )
     }
 }
 

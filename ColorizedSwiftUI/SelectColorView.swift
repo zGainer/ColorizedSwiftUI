@@ -14,7 +14,8 @@ struct SelectColorView: View {
     
     var body: some View {
         Text("\(lround(sliderValue))")
-            .frame(width: 45)
+            .frame(width: 45, alignment: .leading)
+            .foregroundColor(.white)
         
         Slider(value: $sliderValue, in: 0...255, step: 1)
             .tint(tintColor)
